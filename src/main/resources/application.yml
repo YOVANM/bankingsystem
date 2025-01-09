@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bankingsystem
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_system
+    username: your_username
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
