@@ -2,12 +2,12 @@ spring:
   application:
     name: bankingsystem
   datasource:
-    url: jdbc:postgresql://localhost:5432/banking_system
-    username: your_username
-    password: your_password
+    url: jdbc:mysql://localhost:3306/banking_system
+    username: YOVANM
+    password: personal543R$
   jpa:
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.MySQLDialect
