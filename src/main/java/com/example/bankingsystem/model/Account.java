@@ -21,7 +21,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
-@Table(name = "actions", schema = "auth")
+@Table(name = "accounts", schema = "bankingsystem")
 public class Account {
 
   @Id
