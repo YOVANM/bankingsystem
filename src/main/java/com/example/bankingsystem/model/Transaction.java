@@ -1,5 +1,6 @@
 package com.example.bankingsystem.model;
 
+import com.example.bankingsystem.enums.TransactionType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -49,8 +50,4 @@ public class Transaction {
   private String description;
 }
 
-enum TransactionType {
-  DEPOSIT,
-  WITHDRAWAL,
-  TRANSFER
-}
+
