@@ -35,6 +35,9 @@ public class User {
   @Column(nullable = false, length = 255)
   private String passwordHash;
 
+  @Column(nullable = false, length = 255)
+  private String salt;
+
   @Column(nullable = false, columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
   private LocalDateTime createdAt;
 
